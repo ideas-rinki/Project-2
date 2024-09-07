@@ -1,0 +1,114 @@
+nav{
+ background-color: black;
+ height: 12rem;   
+ color: white;
+ }
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ nav ul{
+    display: flex;
+ }
+ .brand{
+font-size: 4rem;
+padding: 1rem;
+    
+ }
+ .spot{
+    list-style-type: none;
+    font-size: 4.5rem;
+    margin-top: 3rem;
+   font-weight: 600;
+   font-family: 'mangal';
+ }
+ .home{
+    font-size: 3.5rem;
+    list-style-type: none;
+    margin-top: 3rem;
+    margin-left: 3rem;
+ }
+ .about{
+    font-size: 3.5rem;
+    list-style-type: none;
+    margin-top: 3rem;
+    margin-left: 3rem;
+ }
+ .bottom{
+    position:sticky;
+    background-color: black;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 0px;
+    flex-direction: column;
+ }
+ #myline{
+    margin-top: 1.6rem;
+    width: 250rem;
+    font-weight: 500;
+ }
+ .container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    width: 60%;
+     display: flex;
+     flex-direction: column;
+     margin: 5rem 23rem 5rem 57rem;
+     border-radius: 29px;
+     background-image: url("5555.jpg");
+     background-size: cover;
+     padding: 2rem;
+     
+
+ }
+
+.i{
+    font-size: 6.53rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+ }
+ h1{
+   font-size: 4rem;
+}
+ .songs{
+   height: 8rem;
+   width: 55rem;
+   background-color: white;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 4rem;
+   border-radius: 3rem;
+
+ }
+ .songs img{
+   height: 8rem;
+   border-radius: 50%;
+ }
+ .y{
+   font-size: 3rem;
+ }
+ .icon{
+   font-size: 3rem;
+ }
+ .icon i{
+   cursor: pointer;
+ }
+#king img{
+  font-size: 5rem;
+   border-radius: 34rem;
+}
+.gif img{
+  
+ position: absolute;
+ left: 0;
+ width: 45px;
+}
+body{
+   background-color: #14213d;
+}
